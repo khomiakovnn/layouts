@@ -1,0 +1,11 @@
+.shop-card {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-right: calc((100% - 900px) / 2);
+    box-sizing: border-box;
+}
+
+.shop-card:nth-child(3n) {
+    margin-right: 0;
+}
